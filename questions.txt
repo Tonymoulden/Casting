@@ -1,32 +1,33 @@
-name: <name here>
-date: <date here>
+name: Tony Moulden
+date: 07/08/21
 
 1 - What is output? What is an example of an output device?
-
+we use print function to output data, an example of this would be print('this is output')
 
 2 - What is input? What is an example of an input device?
-
+it reads a line entered on/in the console by inputs, an example of this is input('enter symbol here: ')
 
 3 - What function do we use to output to the user?
-
+print
 
 4 - What function do we use to get input to the user?
-
+input
 
 5 - What is the argument that input takes? Why is it important?
-
+it takes actions, so that the user can enter the data on the console
 
 6 - What data type does input return? What can we do to get different types of data?
-
+string format, and yes like floats and ints
 
 7 - Give an example of casting input to an integer.
-
+int(input('enter a number: '))
 
 8 - When might casting input from the user cause the program to crash?
-
+I forgot but I know it when you have something repeated many times
 
 9 - Can you use casting whenever you want?
-
+yes
 
 10 - How might you lose information if you cast to an integer, instead of a float?
-
+because it'll round your decimal incorrectly so if you have 3.9999 it would round that to three
+so to avoid that you could just int(round(3.9999))

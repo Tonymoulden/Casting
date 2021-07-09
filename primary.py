@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Tony Moulden
+# date: 07/08/21
 
 # -------------------- Section 1 -------------------- #
 
@@ -17,6 +17,10 @@
 #   deppe, elia
 #
 # ---- WRITE CODE BELOW ---- #
+first_name = 'Tony'
+last_name = "Moulden"
+
+print('my name reversed is', last_name, first_name)
 
 
 #   2. Pyramid
@@ -34,8 +38,13 @@
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
+symbol = input('enter symbol: ')
 
-
+print(symbol*1)
+print(symbol*2)
+print(symbol*3)
+print(symbol*2)
+print(symbol*1)
 #   3. Parallelogram
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
 #       b. Using the symbol, create a pyramid like you see in the example output. (Think, how can you make
@@ -53,7 +62,15 @@
 #      @
 #
 # ---- WRITE CODE BELOW ---- #
+symbol2 = input('enter symbol: ')
 
+print(symbol2*1)
+print(symbol2*2)
+print(symbol2*3)
+print(symbol2*4)
+print( symbol2*3)
+print(  symbol2*2)
+print(   symbol2*1)
 
 # -------------------- Section 2 -------------------- #
 
@@ -76,8 +93,10 @@
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+num1 = input('enter the first number: ')
+num2 = int(input('enter the second number: '))
+num3 = float(input('enter third number here: '))
+print(num1 * 10, num2 * 10, num3 * 10)
 # Objectives:
 #   2. Diameter of a Circle
 #       a. Prompt input from the user to enter a radius. Save this value to a
@@ -91,7 +110,8 @@
 #   diameter = 24.6
 #
 # ---- WRITE CODE BELOW ---- #
-
+num = float(input('enter radius here: '))
+print(num * 2)
 
 # Objectives:
 #   3. Area of a Circle
@@ -111,7 +131,12 @@
 #   area of the circle: 6134.4296
 #
 # ---- WRITE CODE BELOW ---- #
+PI = 3.14
+radius = float(input('Please ENTER The Radius of the Circle: '))
 
+area = PI * radius * radius
+
+print('Area of Circle = %.2f' %area)
 
 # -------------------- Section 4 -------------------- #
 #
