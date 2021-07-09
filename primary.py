@@ -142,3 +142,14 @@ print('Area of Circle = %.2f' %area)
 #
 # Create a conversation with a faux (fake) AI, using input and print().
 # See the example in example.py
+
+name = input('who are you? ')
+print('hello, ' + name + ', it is pleasure to meet you. my name is Tony, The Bot.\n')
+
+color = input('what is your favorite color? ')
+print(color + ' is a wonderful color, i happen to be a fan of all blues.\n')
+
+animal = input('do you have a favorite animal? ')
+print(animal + '? personally i don\'t really like them, but to each their own.\n')
+
+print('unfortunately i do not have access to most of my functions now,\n' + 'but i can do a few things!\n')
